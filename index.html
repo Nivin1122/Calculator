@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    
+    
+    <title>calculator</title>
+</head>
+<body>
+    <h1 class="heading">CALCULATOR</h1>
+
+    <div class="container">
+        <input class="inputs" type="text" id="screen">
+
+        <input class="numbers" type="button" value="1" onclick="user_input(value)">
+        <input class="numbers" type="button" onclick="user_input(value)" value="2">
+        <input class="numbers" type="button" onclick="user_input(value)" value="3">
+        <input class="numbers" type="button" onclick="user_input(value)" value="/">
+        <br>
+        <input class="numbers" type="button" onclick="user_input(value)" value="4">
+        <input class="numbers" type="button" onclick="user_input(value)" value="5">
+        <input class="numbers" type="button" onclick="user_input(value)" value="6">
+        <input class="numbers" type="button" onclick="user_input(value)" value="-">
+        <br>
+        <input class="numbers" type="button" onclick="user_input(value)" value="7">
+        <input class="numbers" type="button" onclick="user_input(value)" value="8">
+        <input class="numbers" type="button" onclick="user_input(value)" value="9">
+        <input class="numbers" type="button" onclick="user_input(value)" value="+">
+        <br>
+        <input type="button" class="finding1" value="c" onclick="clear_all()">
+        <input type="button" class="finding2" value="=" onclick="result()">
+
+        
+    </div>
+    <script src="./calculator.js"></script>
+    
+</body>
+</html>
